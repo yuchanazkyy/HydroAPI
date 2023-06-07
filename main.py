@@ -31,7 +31,7 @@ app = FastAPI()
 
 @app.get("/")
 def hello_world():
-    return ("hello world")
+    return ("Hello World")
 
 @app.post("/predict")
 def classify(input: UploadFile = File(...)):
