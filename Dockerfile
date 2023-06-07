@@ -2,7 +2,7 @@ FROM python:3.10.11
 
 WORKDIR /app
 
-ADD https://storage.googleapis.com/somethingssss/CNNmodif.h5 /app
+ADD https://storage.cloud.google.com/hydroponic/CNNmodif.h5 /app 
 
 RUN pip install --upgrade pip
 
